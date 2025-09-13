@@ -1,8 +1,4 @@
-# DB_20-PMI
-<span style="display: inline-block; justify-content: center">
-    <a>1</a>
-</span>
-
+<h1>Описание предметной области</h1>
 <ol style="font-size: 18px;">
 <li>Информация об абонентах:</li>
     <ul style="font-size: 15px; list-style-type: none;">
