@@ -1,20 +1,9 @@
 # DB_20-PMI
-<div 
-     style=
-     'display: flex; 
-      gap: 10px;    
-      justify-content: center;'>
-  <div style=
-       "background-color: red;
-        border-radius: 5px;
-        border: 1px solid white;
-        color: white;
-        width:2em;
-        text-align: center;">
-        <a style="text-decoration: none;" href="https://clck.ru/3PCF3c">1</a>
-  </div>
-</div>
-</div>
+<span style="display: inline-block; text-align: center; width: 100%;">
+    <a href="#" style="width: 100px; display: inline-block; text-align: center;">Ссылка 1</a>
+    <a href="#" style="width: 100px; display: inline-block; text-align: center;">Ссылка 2</a>
+    <a href="#" style="width: 100px; display: inline-block; text-align: center;">Ссылка 3</a>
+</span>
 <h1> Учет переговоров в городской телефонной сети. </h1>
 <h3>Описание предметной области </h3>
 
