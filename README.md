@@ -1,7 +1,5 @@
 # DB_20-PMI
-<h3> Описание предметной области </h3>
-<h1> Учет переговоров в городской телефонной сети. </h1>
-
+<head>
 <style>
     .orderlist {
         font-size: 18px;
@@ -12,8 +10,11 @@
         color: white;
         list-style-type: none;
     }
-
 </style>
+</head>
+<body>
+<h3> Описание предметной области </h3>
+<h1> Учет переговоров в городской телефонной сети. </h1>
 <ol class="orderlist">
 <li>Информация об абонентах:</li>
     <ul class="unorderlist">
@@ -36,4 +37,4 @@
         <li>Длительность</li>
     </ul>
 </ol>
-
+</body>
