@@ -1,8 +1,20 @@
 # DB_20-PMI
-<ul style="display: flex; list-style-type: none; text-align: center;">
-    <li><a 
-    href='https://github.com/qa1etix/DB_20-PMI?tab=readme-ov-file#%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-1'>1</a></li>
-</ul>
+<div 
+     style=
+     'display: flex; 
+      gap: 10px;    
+      justify-content: center;'>
+  <div style=
+       "background-color: red;
+        border-radius: 5px;
+        border: 1px solid white;
+        color: white;
+        width:2em;
+        text-align: center;">
+        <a style="text-decoration: none;" href="https://clck.ru/3PCF3c">1</a>
+  </div>
+</div>
+</div>
 <h1> Учет переговоров в городской телефонной сети. </h1>
 <h3>Описание предметной области </h3>
 
