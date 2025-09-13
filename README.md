@@ -1,5 +1,5 @@
 # DB_20-PMI
-<span align: "center" style="display: inline-block; justify-content: center">
+<span style="display: inline-block; justify-content: center">
     <a>1</a>
 </span>
 
