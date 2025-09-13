@@ -5,7 +5,7 @@
     "color: white;  
     list-style-type: none;">
 <li>Информация об абонентах:</li>
-    <ul>
+    <ul style="list-style-type: none;">
         <li>ИНН</li> 
         <li>Адрес</li> 
         <li>ФИО</li>
@@ -13,12 +13,12 @@
         <li>Лицевой счет (с поступлениями и списаниями средств)</li>
     </ul>
 <li>Прайс:</li>
-    <ul> 
+    <ul style="list-style-type: none;"> 
         <li>Населенный пункт</li> 
         <li>Стоимость в дневное/ночное время</li> 
     </ul>
 <li>Информация о звонках:</li> 
-    <ul>
+    <ul style="list-style-type: none;">
         <li>Населенный пункт</li> 
         <li>Дата</li> 
         <li>Время суток</li> 
