@@ -1,5 +1,5 @@
 # DB_20-PMI
-<ul style="display: flex; list-style-type: none;">
+<ul style="display: flex; list-style-type: none; text-align: center;">
     <li><a 
     href='https://github.com/qa1etix/DB_20-PMI?tab=readme-ov-file#%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-1'>1</a></li>
 </ul>
