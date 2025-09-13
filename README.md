@@ -1,9 +1,9 @@
 # DB_20-PMI
-<center>
+<span style="display: block; text-align: center; width: 100%;">
     <a href="#" style="width: 100px; display: inline-block; text-align: center;">Ссылка 1</a>
     <a href="#" style="width: 100px; display: inline-block; text-align: center;">Ссылка 2</a>
     <a href="#" style="width: 100px; display: inline-block; text-align: center;">Ссылка 3</a>
-</center>
+</span>
 <h1> Учет переговоров в городской телефонной сети. </h1>
 <h3>Описание предметной области </h3>
 
