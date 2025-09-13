@@ -1,11 +1,22 @@
 # DB_20-PMI
 <h3> Описание предметной области </h3>
 <h1> Учет переговоров в городской телефонной сети. </h1>
-<ol style=
-    "color: white;  
-    list-style-type: none;">
+
+<style>
+    .orderlist {
+        font-size: 18px;
+        color: white; 
+    }
+    .unorderlist {
+        font-size: 15px;
+        color: white;
+        list-style-type: none;
+    }
+
+</style>
+<ol class="orderlist">
 <li>Информация об абонентах:</li>
-    <ul style="list-style-type: none;">
+    <ul class="unorderlist">
         <li>ИНН</li> 
         <li>Адрес</li> 
         <li>ФИО</li>
@@ -13,12 +24,12 @@
         <li>Лицевой счет (с поступлениями и списаниями средств)</li>
     </ul>
 <li>Прайс:</li>
-    <ul style="list-style-type: none;"> 
+    <ul class="unorderlist"> 
         <li>Населенный пункт</li> 
         <li>Стоимость в дневное/ночное время</li> 
     </ul>
 <li>Информация о звонках:</li> 
-    <ul style="list-style-type: none;">
+    <ul class="unorderlist">
         <li>Населенный пункт</li> 
         <li>Дата</li> 
         <li>Время суток</li> 
