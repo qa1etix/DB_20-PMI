@@ -26,4 +26,7 @@
 </ol>
 
 <h1>Лабораторная работа 1</h1>
-<img src="https://github.com/qa1etix/DB_20-PMI/blob/main/img/1.1.png">
+<h4>ER модель</h4>
+<img alt="Лабораторная 1.1" src="https://github.com/qa1etix/DB_20-PMI/blob/main/img/1.1.png">
+<h4>Реляционная модель</h4>
+<img alt="Лабораторная 1.2" src="https://github.com/qa1etix/DB_20-PMI/blob/main/img/1.2.png?raw=true">
