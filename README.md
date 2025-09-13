@@ -1,6 +1,6 @@
 # DB_20-PMI
-<a href="#" style="align: center;">Ссылка 1</a>
-<a href="#" style="align: center;">Ссылка 2</a>
+<a align: center>Ссылка 1</a>
+<a align: center>Ссылка 2</a>
 <h1> Учет переговоров в городской телефонной сети. </h1>
 <h3>Описание предметной области </h3>
 
