@@ -26,4 +26,4 @@
 </ol>
 
 <h1>Лабораторная работа 1</h1>
-![Лабораторная работа 1 часть 1](https://github.com/qa1etix/DB_20-PMI/raw/master/img/1.1.png)
+![Лабораторная работа 1 часть 1](https://github.com/qa1etix/DB_20-PMI/blob/3a68623250de1bd054770842ceceed73ac7dbcb4/img/1.1.png)
