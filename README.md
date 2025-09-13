@@ -1,5 +1,7 @@
 # DB_20-PMI
-<div align: "center"><a>1</a></div>
+<span align: "center" style="display: inline-block; justify-content: center">
+    <a>1</a>
+</span>
 
 <ol style="font-size: 18px;">
 <li>Информация об абонентах:</li>
