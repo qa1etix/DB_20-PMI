@@ -1,7 +1,6 @@
 # DB_20-PMI
-<a href="#" style="width: 100px; position: absolute; left: 50%; transform: translateX(-150px);">Ссылка 1</a>
-<a href="#" style="width: 100px; position: absolute; left: 50%; transform: translateX(-50px);">Ссылка 2</a>
-<a href="#" style="width: 100px; position: absolute; left: 50%; transform: translateX(50px);">Ссылка 3</a>
+<a href="#" style="align: center;">Ссылка 1</a>
+<a href="#" style="align: center;">Ссылка 2</a>
 <h1> Учет переговоров в городской телефонной сети. </h1>
 <h3>Описание предметной области </h3>
 
