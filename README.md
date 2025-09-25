@@ -34,8 +34,8 @@
 а так же само по себе списание (если транзкация имеет тип "списание"). Конечно, набор аттрибутов, вероятно не конечный.<br>
 Скрипт создания таблиц и инсерты находятся в папке "Лабораторная 2" </p>
 <h4>Результат выполнения запросов</h4>
-<img alt="Лабораторная 2 - " src="">
-<img alt="Лабораторная 2 - " src="">
-<img alt="Лабораторная 2 - " src="">
-<img alt="Лабораторная 2 - " src="">
-<img alt="Лабораторная 2 - " src="">
+<img alt="Лабораторная 2 - users"        src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 2/img/users.png">
+<img alt="Лабораторная 2 - accounts"     src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 2/img/accounts.png">
+<img alt="Лабораторная 2 - calls"        src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 2/img/Calls.png">
+<img alt="Лабораторная 2 - city"         src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 2/img/City.png">
+<img alt="Лабораторная 2 - transactions" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 2/img/transactions.png">
