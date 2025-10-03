@@ -18,7 +18,7 @@ create table accounts
    id bigint primary key,
    balance numeric(15,2) default(0.00),
    debtor_status boolean default(false),
-   foreign key (id) references users(id) on delete cascade
+   foreign key (id) references users(id) --odc
 );
 
 create table transactions
@@ -28,7 +28,7 @@ create table transactions
    amount numeric(15,2) not null,
    transaction_type text check (transaction_type in ('income', 'expense')),
    transaction_date timestamp default(current_timestamp),
-   foreign key (account_id) references accounts(id) on delete cascade
+   foreign key (account_id) references accounts(id) --odc
 );
 
 create table city
@@ -44,7 +44,7 @@ create table calls
    user_id bigint not null,
    city_id bigint not null,
    call_date timestamp default(current_timestamp),
-   duration interval not null,
-   foreign key (city_id) references city(city_id) on delete cascade,
-   foreign key (user_id) references users(id) on delete cascade
+   duration interval not null, -- вместо start_time/end_time
+   foreign key (city_id) references city(city_id) --odc,
+   foreign key (user_id) references users(id)--odc
 );
