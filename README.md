@@ -39,3 +39,31 @@
 <img alt="Лабораторная 2 - calls"        src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 2/img/Calls.png">
 <img alt="Лабораторная 2 - city"         src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 2/img/City.png">
 <img alt="Лабораторная 2 - transactions" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 2/img/transactions.png">
+
+<h1>Лабораторная работа 4</h1>
+
+<h2>Процедуры</h2>
+<p>A.</p>
+<img alt="Лабораторная 4 - Процедуры, A" src="">
+<p>B.</p>
+<img alt="Лабораторная 4 - Процедуры, B" src="">
+<p>C.</p>
+<img alt="Лабораторная 4 - Процедуры, C" src="">
+<p>D.</p>
+<img alt="Лабораторная 4 - Процедуры, D" src="">
+
+<h2>Функции</h2>
+<p>A.</p>
+<img alt="Лабораторная 4 - Функции, A" src="">
+<p>B.</p>
+<img alt="Лабораторная 4 - Функции, B" src="">
+<p>C.</p>
+<img alt="Лабораторная 4 - Функции, C" src="">
+
+<h2>Триггеры</h2>
+<p>A.</p>
+<img alt="Лабораторная 4 - Триггеры, A" src="">
+<p>B.</p>
+<img alt="Лабораторная 4 - Триггеры, B" src="">
+<p>C.</p>
+<img alt="Лабораторная 4 - Триггеры, C" src="">
