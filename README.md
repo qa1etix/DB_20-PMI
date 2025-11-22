@@ -81,5 +81,5 @@
 <p>C.</p>
 <h3>Таблица city</h3>
 <img alt="Лабораторная 4 - Триггеры, C" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Триггеры/C/city.png">
-<h3>После Update</h3>
-<img alt="Лабораторная 4 - Триггеры, C" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Триггеры/C/after delete.png">
+<h3>После DELETE</h3>
+<img alt="Лабораторная 4 - Триггеры, C" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Триггеры/C/after_delete.png">
