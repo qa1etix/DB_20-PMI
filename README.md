@@ -44,25 +44,34 @@
 
 <h2>Процедуры</h2>
 <p>A.</p>
-<img alt="Лабораторная 4 - Процедуры, A" src="">
+<img alt="Лабораторная 4 - Процедуры, A" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Процедуры/1aRES.png">">
 <p>B.</p>
-<img alt="Лабораторная 4 - Процедуры, B" src="">
+<img alt="Лабораторная 4 - Процедуры, B" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Процедуры/1bRES.png">
 <p>C.</p>
-<img alt="Лабораторная 4 - Процедуры, C" src="">
+<img alt="Лабораторная 4 - Процедуры, C" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Процедуры/1cRES.png">
 <p>D.</p>
-<img alt="Лабораторная 4 - Процедуры, D" src="">
+<img alt="Лабораторная 4 - Процедуры, D" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Процедуры/1dRES.png">
 
 <h2>Функции</h2>
 <p>A.</p>
-<img alt="Лабораторная 4 - Функции, A" src="">
+<img alt="Лабораторная 4 - Функции, A" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Функции/2aRES.png">
 <p>B.</p>
-<img alt="Лабораторная 4 - Функции, B" src="">
+<img alt="Лабораторная 4 - Функции, B" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Функции/2bRES.png">
 <p>C.</p>
-<img alt="Лабораторная 4 - Функции, C" src="">
+<img alt="Лабораторная 4 - Функции, C" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Функции/2cRES.png">
 
 <h2>Триггеры</h2>
+
 <p>A.</p>
-<img alt="Лабораторная 4 - Триггеры, A" src="">
+<h3>Счета пользователей до</h3>
+<img alt="Лабораторная 4 - Триггеры, A" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Триггеры/A/accounts_1.png">
+<h3>Счета пользователе после</h3>
+<img alt="Лабораторная 4 - Триггеры, A" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Триггеры/A/accounts_after.png">
+<h3>Звонки</h3>
+<img alt="Лабораторная 4 - Триггеры, A" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Триггеры/A/calls_after.png">
+<h3>Звонки</h3>
+<img alt="Лабораторная 4 - Триггеры, A" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Триггеры/A/transactions_after.png">
+
 <p>B.</p>
 <img alt="Лабораторная 4 - Триггеры, B" src="">
 <p>C.</p>
