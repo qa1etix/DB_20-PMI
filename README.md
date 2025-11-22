@@ -44,7 +44,7 @@
 
 <h2>Процедуры</h2>
 <p>A.</p>
-<img alt="Лабораторная 4 - Процедуры, A" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Процедуры/1aRES.png">">
+<img alt="Лабораторная 4 - Процедуры, A" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Процедуры/1aRES.png">
 <p>B.</p>
 <img alt="Лабораторная 4 - Процедуры, B" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Процедуры/1bRES.png">
 <p>C.</p>
@@ -69,10 +69,17 @@
 <img alt="Лабораторная 4 - Триггеры, A" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Триггеры/A/accounts_after.png">
 <h3>Звонки</h3>
 <img alt="Лабораторная 4 - Триггеры, A" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Триггеры/A/calls_after.png">
-<h3>Звонки</h3>
+<h3>Транзакции</h3>
 <img alt="Лабораторная 4 - Триггеры, A" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Триггеры/A/transactions_after.png">
 
 <p>B.</p>
-<img alt="Лабораторная 4 - Триггеры, B" src="">
+<h3>Должники</h3>
+<img alt="Лабораторная 4 - Триггеры, B" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Триггеры/B/debtor.png">
+<h3>После Update</h3>
+<img alt="Лабораторная 4 - Триггеры, B" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Триггеры/B/After Update.png">
+
 <p>C.</p>
-<img alt="Лабораторная 4 - Триггеры, C" src="">
+<h3>Таблица city</h3>
+<img alt="Лабораторная 4 - Триггеры, C" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Триггеры/C/city.png">
+<h3>После Update</h3>
+<img alt="Лабораторная 4 - Триггеры, C" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 4/Изображения/Триггеры/C/after delete.png">
