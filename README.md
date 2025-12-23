@@ -86,3 +86,68 @@
 <p>Для проверки работы триггера был добавлен город с индексом 1. Все абоненты привязываются к нему, когда удаляется город. (Такой вариант, скорее всего менее предпочтителен, просто для проверки триггера)</p>
 
 Для проверки работы всех триггеров были добавлены [тестовые данные](https://github.com/qa1etix/DB_20-PMI/blob/8fe34423f0a6248b0ba667b67875fa17ceb7b654/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%204/%D0%9A%D0%BE%D0%B4/%D0%A2%D1%80%D0%B8%D0%B3%D0%B3%D0%B5%D1%80%D1%8B/test.sql)
+
+<h1>Лабораторная работа 6</h1>
+<h2>Перенос БД с реляционной модели PostgreSQL в графовую модель MSSQL</h2>
+<p>1. [Скрипт создания узлов и ребер] () </p>
+<p>2. [Скрипт вставки тестовых данных]() </p>
+<h2>Результаты [запросов из 3.2]()</h2>
+
+```sql
+WITH debtors AS (
+    SELECT 
+        u.fio,
+        u.inn,
+        a.balance,
+        a.debtor_status
+    FROM 
+        Users u,
+        has_account ha,
+        Accounts a
+    WHERE 
+        MATCH(u-(ha)->a)
+        AND a.debtor_status = 1
+)
+SELECT TOP 5 *
+FROM debtors
+ORDER BY balance;
+```
+<img alt="Лабораторная 6 - запрос 1" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 6/img/1.png">
+
+```sql
+WITH avg_call_duration AS (
+    SELECT AVG(DATEDIFF(SECOND, '00:00:00', duration)) as avg_seconds
+    FROM Calls
+),
+user_calls AS (
+    SELECT 
+        u.fio,
+        c.call_id,
+        c.duration,
+        c.call_date,
+        DATEDIFF(SECOND, '00:00:00', c.duration) as duration_seconds,
+        mc.call_cost
+    FROM 
+        Users u,
+        made_call mc,
+        Calls c
+    WHERE 
+        MATCH(u-(mc)->c)
+)
+SELECT TOP 5
+    uc.fio,
+    uc.call_id,
+    uc.duration,
+    uc.duration_seconds,
+    uc.call_date,
+    uc.call_cost,
+    acd.avg_seconds as average_duration
+FROM 
+    user_calls uc,
+    avg_call_duration acd
+WHERE 
+    uc.duration_seconds > acd.avg_seconds
+ORDER BY 
+    uc.duration_seconds DESC;
+```
+<img alt="Лабораторная 6 - запрос 2" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 6/img/2.png">
