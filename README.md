@@ -89,6 +89,7 @@
 
 <h1>Лабораторная работа 6</h1>
 <h2>Перенос БД с реляционной модели PostgreSQL в графовую модель MSSQL</h2>
+
 1. [Скрипт создания узлов и ребер](https://github.com/qa1etix/DB_20-PMI/blob/a420a6c6042d87470d50870a4dbce0d023601091/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%206/Scripts/Create.sql)
 2. [Скрипт вставки тестовых данных](https://github.com/qa1etix/DB_20-PMI/blob/a420a6c6042d87470d50870a4dbce0d023601091/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%206/Scripts/Inserts.sql)
 ## Результаты [запросов из 3.2](https://github.com/qa1etix/DB_20-PMI/blob/a420a6c6042d87470d50870a4dbce0d023601091/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%206/Scripts/3.2%20Graph.sql)
