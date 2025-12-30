@@ -199,11 +199,11 @@ ORDER BY
 
 Экран 1
 
-<img alt="Лабораторная 7 - Задание 1" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 7/Задание 2/READ UNCOMMITED/img/Экран 1.png">
+<img alt="Лабораторная 7 - Задание 2" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 7/Задание 2/READ UNCOMMITED/img/Экран 1.png">
 
 Экран 2
 
-<img alt="Лабораторная 7 - Задание 1" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 7/Задание 2/READ UNCOMMITED/img/Экран 2.png">
+<img alt="Лабораторная 7 - Задание 2" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 7/Задание 2/READ UNCOMMITED/img/Экран 2.png">
 
 Видно, что вторая транзакция читает изменения из первой.
 
@@ -211,11 +211,11 @@ ORDER BY
 
 Экран 1
 
-<img alt="Лабораторная 7 - Задание 1" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 7/Задание 2/READ COMMITED/img/Экран 1.png">
+<img alt="Лабораторная 7 - Задание 2" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 7/Задание 2/READ COMMITED/img/Экран 1.png">
 
 Экран 2
 
-<img alt="Лабораторная 7 - Задание 1" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 7/Задание 2/READ COMMITED/img/Экран 1.png">
+<img alt="Лабораторная 7 - Задание 2" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 7/Задание 2/READ COMMITED/img/Экран 2.png">
 
 !!! [ВАЖНО] !!! Никаких изменений в поведении транзакций нет. Я не добавил одновременные изменения в транзакциях, поскольку это приводит к блокировке последней, выполнившей запрос. (UPDATE в данном ключе) Такое поведение будет более наглядно в следующих примерах
 
@@ -223,11 +223,11 @@ ORDER BY
 
 Экран 1
 
-<img alt="Лабораторная 7 - Задание 1" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 7/Задание 2/REPEATABLE READ/img/Экран 1.png">
+<img alt="Лабораторная 7 - Задание 2" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 7/Задание 2/REPEATABLE READ/img/Экран 1.png">
 
 Экран 2
 
-<img alt="Лабораторная 7 - Задание 1" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 7/Задание 2/REPEATABLE READ/img/Экран 2.png">
+<img alt="Лабораторная 7 - Задание 2" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 7/Задание 2/REPEATABLE READ/img/Экран 2.png">
 
 Как видно, внесенные одновременные изменения не заметны для транзакций. Опять особенность PostgreSQL. В действительности же, можно было бы увидеть изменения.
 
@@ -235,11 +235,11 @@ ORDER BY
 
 Экран 1
 
-<img alt="Лабораторная 7 - Задание 1" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 7/Задание 2/SERIALIZABLE/img/Экран 2.png">
+<img alt="Лабораторная 7 - Задание 2" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 7/Задание 2/SERIALIZABLE/img/Экран 1.png">
 
 Экран 2
 
-<img alt="Лабораторная 7 - Задание 1" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 7/Задание 2/SERIALIZABLE/img/Экран 2.png">
+<img alt="Лабораторная 7 - Задание 2" src="https://github.com/qa1etix/DB_20-PMI/blob/main/Лабораторная 7/Задание 2/SERIALIZABLE/img/Экран 2.png">
 
 Вот, теперь при попытке внести одновременные изменения получаем критическую блокировку транзакции. Единственный выход - откат.
 
