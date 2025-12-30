@@ -245,7 +245,7 @@ ORDER BY
 
 Вывод : PSQL имеет сильную защиту транзакций.
 
-### MONGODB ###
+# MONGODB #
 
 [Запросы для первого задания](https://github.com/qa1etix/DB_20-PMI/blob/52fba4ab90599806f39b363adb9b137f7ac55283/MongoDB/1.mongodb.js)
 [Запросы для второго задания](https://github.com/qa1etix/DB_20-PMI/blob/52fba4ab90599806f39b363adb9b137f7ac55283/MongoDB/2.mongodb.js)
