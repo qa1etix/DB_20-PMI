@@ -1,0 +1,7 @@
+SET SESSION CHARACTERISTICS AS TRANSACTION ISOLATION LEVEL SERIALIZABLE;
+BEGIN;
+
+--СЕАНС 2: Изменяем те же данные--
+UPDATE accounts SET balance = balance - 200 WHERE A_ID = 2;
+
+COMMIT;
